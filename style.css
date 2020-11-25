@@ -11,6 +11,10 @@ body {
    color: #FFD700;
 }
 
+a.navbar-brand:hover {
+   color: #ffd900a4;
+}
+
 /* content */
 #content ul li {
    list-style: none;
