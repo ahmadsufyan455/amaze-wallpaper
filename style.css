@@ -1,0 +1,82 @@
+body {
+   background-color: #373A3C;
+}
+
+/* navbar */
+.navbar {
+   background-color: #000000 !important;
+}
+
+.navbar-brand {
+   color: #FFD700;
+}
+
+/* content */
+#content ul li {
+   list-style: none;
+}
+
+#content .category, a {
+   color: #FFD700;
+}
+
+#content .category a:hover {
+   color: #ffd900a4;
+}
+
+#content .card {
+   border-radius: 10px;
+   position: relative;
+}
+
+#content .card img {
+   border-radius: 10px;
+   height: 180px;
+}
+
+#content .card .overlay {
+   position: absolute;
+   bottom: -15px;
+   width: 100%;
+}
+
+#content .card .overlay p {
+   background-color: rgba(0, 0, 0, 0.5);
+   padding: 8px;
+   border-radius: 10px;
+}
+
+#content a:hover {
+   color: #ffd900a4;
+}
+
+/* pagination */
+.pagination li a {
+   color: #FFD700;
+   background-color: #373A3C;
+}
+
+.page-item.active .page-link, 
+.pagination li a:focus,
+.pagination li a:hover,
+.pagination li span:focus,
+.pagination li span:hover {
+    z-index: 3;
+    color: #FFFFFF;
+    background-color: #FFD700;
+    border-color: #ddd;
+}
+
+/* footer */
+footer p {
+   color: #FFD700;
+   font-size: 12px;
+}
+
+/* download detail */
+#content table {
+   background-color: #000000;
+   color: #FFFFFF;
+   border-radius: 5px;
+   font-size: 14px;
+}
